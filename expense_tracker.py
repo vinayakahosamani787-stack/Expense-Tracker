@@ -5,7 +5,7 @@ def menu():
 while True:
     menu()
     try:
-        choice=int(input("Enter the choice: "))
+        choice=int(input("Enter your choice: "))
     except ValueError:
         print("Enter valid choice")
         continue
