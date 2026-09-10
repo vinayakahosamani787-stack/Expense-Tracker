@@ -1,6 +1,7 @@
 print("$$$$$$<<<<EXPENSE TRACKER>>>>$$$$$$")
 expense=[]
 def menu():
+    print("Welcome to Expense Tracker")
     print("1. Add Expense\n2. View Expense\n3. Search Expense\n4. Update Expense\n5. Delete Expense\n6. Show Total Expense\n7. Exit")
 while True:
     menu()
