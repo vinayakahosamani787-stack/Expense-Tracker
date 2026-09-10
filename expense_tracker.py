@@ -57,7 +57,7 @@ while True:
             expense.pop(index)
             print(expense)
         else:
-            print("Enter valid index")
+            print("Invalid index")
     elif choice==6:
         total=0
         for exp in expense:
